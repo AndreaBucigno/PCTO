@@ -79,6 +79,7 @@ body {
 
 /* CSS specifico per il container della pagina di login */
 .login-container {
+    align-self: center;
     margin-top: auto;
     margin-left: center;
     margin-right: center;
