@@ -1,4 +1,4 @@
-#logo {
+.Logo {
     height: 50px; 
     width: auto;  
 }
@@ -13,11 +13,9 @@ body {
     color: #fafafa;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
 }
 
 .navbar {
-    
     justify-content: space-between;
     align-items: center;
     background-color: #111; 
@@ -34,81 +32,85 @@ body {
 }
 
 .dataTables_filter {
-  margin-bottom: 15px;          
+    margin-bottom: 15px;          
 }
 
 .dataTables_filter label {
-  font-weight: bold;
-  color: white;
+    font-weight: bold;
+    color: white;
 }
 
 .dataTables_filter input {
-  border: 2px solid #007bff;    
-  border-radius: 8px;           
-  padding: 6px 12px;
-  font-size: 14px;
-  transition: all 0.2s ease-in-out;
+    border: 2px solid #007bff;    
+    border-radius: 8px;           
+    padding: 6px 12px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
 }
 
 .dataTables_filter input:focus {
-  border-color: #007bff;        
-  outline: none;
-
+    border-color: #007bff;        
+    outline: none;
 }
+
 .dataTables_length {
-  margin-bottom: 15px;          
-}
-.dataTables_length select {
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 5px 10px;
-  font-size: 14px;
-  background-color: #1e1e1e; 
-  color: #ffffff;            
-  cursor: pointer;
+    margin-bottom: 15px;          
 }
 
+.dataTables_length select {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #1e1e1e; 
+    color: #ffffff;            
+    cursor: pointer;
+}
 
 .dataTables_length select option {
-  background-color: #1e1e1e; 
-  color: #ffffff;            
+    background-color: #1e1e1e; 
+    color: #ffffff;            
 }
 
 .dataTables_info {
-  color: #ffffff;            
-  margin-top: 15px;          
+    color: #ffffff;            
+    margin-top: 15px;          
 }
 
-
-/*css per la pagina login*/
-
-.riquadro{
-    
-    justify-self: center;
+/* CSS specifico per il container della pagina di login */
+.login-container {
+    margin-top: auto;
+    margin-left: center;
+    margin-right: center;
+    max-width: 500px;
     background-color: #333;
-    padding: 10px 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-    margin-bottom: 30px;
 }
 
 .form-group {
     margin-bottom: 15px;
     display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 
 .form-control {
     width: 100%;
     height: auto;
     color: #fff;                
+    background-color: #1e1e1e;
     border: 1px solid #555;
 }
 
-/*Per cambiare il colore del testo e dello sfondo quando il browser riempie automaticamente i campi */
+.form-control:focus {
+    background-color: #1e1e1e;
+    border-color: #007bff;
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
 
+/* Per cambiare il colore del testo e dello sfondo quando il browser riempie automaticamente i campi */
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
@@ -118,31 +120,33 @@ input:-webkit-autofill:active {
     caret-color: #ffffff !important;                           
 }
 
-.form-group input{
-    color: black;                
-    opacity: 1;
-                     
-}
 label {
     color: #fff;
 }
 
+.form-text {
+    color: #bbb;
+}
 
 .forgot-pass {
     text-align: right;
     margin-bottom: 20px;
 }
 
+.forgot-pass a {
+    color: #007bff;
+    text-decoration: none;
+}
+
 .forgot-pass a:hover {
     text-decoration: underline;
 }
-
 
 .btn-primary {
     padding: 10px 40px;
     font-size: 16px;
 }
 
-.btn-primary :hover{
-    background-color: #001c3a;
+.btn-primary:hover {
+    background-color: #0056b3;
 }
