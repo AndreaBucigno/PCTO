@@ -13,6 +13,7 @@ body {
     color: #fafafa;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 }
 
 .navbar {
@@ -33,7 +34,7 @@ body {
 }
 
 .dataTables_filter {
-  margin-bottom: 15px;          /* distanza sotto */
+  margin-bottom: 15px;          
 }
 
 .dataTables_filter label {
@@ -42,8 +43,8 @@ body {
 }
 
 .dataTables_filter input {
-  border: 2px solid #007bff;    /* bordo blu */
-  border-radius: 8px;           /* angoli arrotondati */
+  border: 2px solid #007bff;    
+  border-radius: 8px;           
   padding: 6px 12px;
   font-size: 14px;
   transition: all 0.2s ease-in-out;
@@ -73,3 +74,75 @@ body {
   color: #ffffff;            
 }
 
+.dataTables_info {
+  color: #ffffff;            
+  margin-top: 15px;          
+}
+
+
+/*css per la pagina login*/
+
+.riquadro{
+    
+    justify-self: center;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    width: 100%;
+    height: auto;
+    color: #fff;                
+    border: 1px solid #555;
+}
+
+/*Per cambiare il colore del testo e dello sfondo quando il browser riempie automaticamente i campi */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px #1e1e1e inset !important; 
+    -webkit-text-fill-color: #ffffff !important;               
+    caret-color: #ffffff !important;                           
+}
+
+.form-group input{
+    color: black;                
+    opacity: 1;
+                     
+}
+label {
+    color: #fff;
+}
+
+
+.forgot-pass {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-pass a:hover {
+    text-decoration: underline;
+}
+
+
+.btn-primary {
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+.btn-primary :hover{
+    background-color: #001c3a;
+}
